@@ -1,0 +1,9 @@
+import "dotenv/config";
+
+// Variables de entorno centralizadas
+export const config = {
+  PORT: process.env.PORT || 8080,
+  NODE_ENV: process.env.NODE_ENV || "development",
+  MONGO_URL: process.env.MONGO_URL,
+  JWT_SECRET: process.env.JWT_SECRET,
+};
