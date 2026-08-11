@@ -86,3 +86,9 @@ src/
 | GET    | /api/health    | Estado del servidor                  | `{ "status": "ok", "message": "Servidor activo" }` |
 | GET    | /api/events    | Lista de eventos (vacía por ahora)   | `{ "status": "success", "payload": [] }`           |
 | GET    | /api/sessions  | Base de sessions (sin auth todavía)  | `{ "status": "success", "message": "..." }`        |
+
+## Evidencia
+
+`GET /api/health` respondiendo OK:
+
+![GET /api/health](docs/api-health.png)
